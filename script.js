@@ -50,6 +50,7 @@ showTypeOf(screenPrice);
 showTypeOf(adaptive)
 const allServicePrices = getAllServicePrices();
 const fullPrice = getFullPrice();
+title = getTitle(title);
 const servicePercentPrice = getServicePercentPrices();
 
 console.log(screens);
