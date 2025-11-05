@@ -1,3 +1,15 @@
+const title = document.getElementsByTagName('h1')[0];
+const buttons = document.getElementsByClassName('handler_btn');
+const screensButton = document.querySelector('.screen-btn');
+const controlPercent = document.querySelectorAll('.other-items.percent');
+const controlNumber = document.querySelectorAll('.other-items.number');
+const inputRange = document.querySelector('.rollback input[type="range"]');
+const valueRange = document.querySelector('.rollback .range-value');
+const totalInputs = Array.from(document.getElementsByClassName('total-input'));
+let wrapperScren = document.querySelectorAll('.screen');
+console.log(title);
+
+
 const appData = {
     title: '',
     screens: [],
