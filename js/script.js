@@ -7,7 +7,6 @@ const inputRange = document.querySelector('.rollback input[type="range"]');
 const valueRange = document.querySelector('.rollback .range-value');
 const totalInputs = Array.from(document.getElementsByClassName('total-input'));
 let wrapperScren = document.querySelectorAll('.screen');
-console.log(title);
 
 
 const appData = {
