@@ -1,11 +1,22 @@
 const title = document.getElementsByTagName('h1')[0];
-const buttons = document.getElementsByClassName('handler_btn');
-const screensButton = document.querySelector('.screen-btn');
+
+const startButton = document.getElementsByClassName('handler_btn')[0];
+const ressetButton = document.getElementsByClassName('handler_btn')[1];
+
+const screenButton = document.querySelector('.screen-btn');
+
 const controlPercent = document.querySelectorAll('.other-items.percent');
 const controlNumber = document.querySelectorAll('.other-items.number');
+
 const inputRange = document.querySelector('.rollback input[type="range"]');
 const valueRange = document.querySelector('.rollback .range-value');
-const totalInputs = Array.from(document.getElementsByClassName('total-input'));
+
+const total = document.getElementsByClassName('total-input')[0];
+const totalCount = document.getElementsByClassName('total-input')[1];
+const totalCountOther = document.getElementsByClassName('total-input')[2];
+const totalFullCount = document.getElementsByClassName('total-input')[3];
+const totalCountRollback = document.getElementsByClassName('total-input')[4];
+
 let wrapperScren = document.querySelectorAll('.screen');
 
 
